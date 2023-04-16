@@ -1,0 +1,233 @@
+.fsForm .fsRow .fsRowBody .fsField {
+    background-color: #fff;
+    border-color: #f3f3f6;
+    border-radius: 20px;
+}
+
+.fsBody .fsForm {
+    padding: 0 !important;
+}
+
+.fsForm .fsFieldRow .fsFieldCell {
+    margin-right: 3%;
+    margin-left: 4%;
+}
+
+.fsBody .fsSubField.fsFieldState {
+    width: 100% !important;
+}
+
+.fsBody p {
+    font-size: 13px;
+}
+
+.fsSubmitButton {
+    font-weight: 600 !important;
+}
+
+.fsForm .fsRow .fsRowBody .fsOptionLabel .fsField {
+    border: 0px;
+}
+
+.fsForm .fsRow .fsRowBody .fsOptionLabel .fsCheckAllOption,
+.fsForm .fsRow .fsRowBody .fsOptionLabel .fsField {
+    position: relative;
+    line-height: 1;
+}
+
+.fsBody .fsForm .fsFieldRow {
+    margin-bottom: 10px !important;
+}
+
+.fsBody .fsForm .fsSupporting {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 15px;
+    color: #000 !important;
+}
+
+.fsForm .fsRowBody input[type=checkbox] {
+    top: 7px !important;
+    width: 14px !important;
+    height: 14px !important;
+    border-radius: 1px !important;
+}
+
+.fsForm .fsRowBody input[type=checkbox]::before {
+    border-radius: 3px;
+}
+
+.custom-form .elementor-widget-text-editor,
+.custom-form .elementor-widget-text-editor p {
+    margin-bottom: 0px !important;
+}
+
+.custom-form .fsSubFieldGroup .fsSubField.fsNameFirst {
+    width: 40% !important;
+    margin-right: 7%;
+}
+
+.custom-form .fsSubFieldGroup .fsSubField.fsNameLast {
+    width: 40% !important;
+}
+
+.custom-form .fsFieldRow .fsFieldCell.fsSpan50 {
+    width: 40%;
+}
+
+.custom-form .fsSubmitButton {
+    background-color: #2339B7 !important;
+}
+
+.custom-form .fsForm .fsSubmit {
+    position: relative;
+    width: 40%;
+}
+
+.custom-form .fsSubmitButton {
+    width: 100%;
+    padding-top: 11px !important;
+    padding-bottom: 11px !important;
+}
+
+.custom-form .fsFieldFocused:not(.fsValidationError).fsSpan100 {
+    margin-bottom: 10px !important;
+    padding: 10px !important;
+}
+
+.custom-form {
+    padding-bottom: 50px;
+}
+
+.fs-20 {
+    font-size: 20px !important;
+}
+
+.fs-24,
+.fs-24 .elementor-heading-title {
+    font-size: 24px !important;
+}
+
+body.woocommerce-checkout {
+    background: #fff;
+}
+
+.woocommerce form .form-row.woocommerce-validated .select2-container,
+.woocommerce form .form-row.woocommerce-validated input.input-text,
+.woocommerce form .form-row.woocommerce-validated select {
+    border-color: #4eb2e4;
+}
+
+/*form.woocommerce-checkout {
+	border: 1px solid #4eb2e4;
+	padding: 10px;
+	margin-bottom: 20px;
+}*/
+
+.woocommerce-cart-form .product-thumbnail,
+.woocommerce-cart-form .product-price,
+.woocommerce-cart-form .product-subtotal,
+.cart_item .product-quantity,
+.product-total .subscription-details,
+.woocommerce-checkout-review-order-table tfoot .cart-subtotal,
+.woocommerce-checkout-review-order-table tfoot .order-total,
+.first-payment-date {
+    display: none;
+}
+
+.woocommerce-checkout-review-order-table tfoot .cart-subtotal.recurring-total,
+.woocommerce-checkout-review-order-table tfoot .order-total.recurring-total {
+    display: block;
+}
+
+.woocommerce-checkout h3 {
+    color: #2339B7;
+    font-size: 18px;
+}
+
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea {
+    border: 0;
+    background: #F6F6F6;
+    border-radius: 67px;
+}
+
+.woocommerce-checkout .select2.select2-container .select2-selection {
+    border: 0 !important;
+    background: #F6F6F6 !important;
+    border-radius: 67px !important;
+}
+
+.woocommerce button.button.alt {
+    background: #2F40C3;
+    border-radius: 81px;
+    min-width: 200px;
+}
+
+.woocommerce button.button.alt:hover {
+    background: #2F40C3;
+    opacity: 0.8;
+}
+
+.woocommerce-checkout main {
+    padding-bottom: 50px;
+}
+
+.woocommerce .place-order button.button.alt {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .fsFieldRow .fsFieldCell.fsSpan33 {
+        width: calc((100% - 60px) / 3) !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .custom-form .fsForm .fsSubmit:before {
+        right: 23%;
+    }
+}
+
+@media screen and (max-width: 40em) {
+    .fieldset-content .fsOptionLabel {
+        background: transparent !important;
+        border: 0px !important;
+        padding: 0px !important;
+    }
+    .fsLastRow .fsRowBody .fieldset-content .fsOptionLabel {
+        width: 100% !important;
+    }
+    .fsBody .fsForm .fsFieldRow {
+        margin-bottom: 0px !important;
+    }
+    .custom-form .elementor-widget-text-editor,
+    .custom-form .elementor-widget-text-editor p {
+        margin-bottom: 10px !important;
+    }
+    .custom-form .fsSubFieldGroup .fsSubField.fsNameFirst,
+    .custom-form .fsSubFieldGroup .fsSubField.fsNameLast,
+    .custom-form .fsFieldRow .fsFieldCell.fsSpan50 {
+        width: 100% !important;
+        margin-right: 0;
+        margin-bottom: 20px !important;
+    }
+    .custom-form .fsSubFieldGroup .fsSubField.fsNameLast {
+        margin-bottom: 0px !important;
+    }
+    .custom-form .fsForm .fsSubmit {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .custom-form .fsSubmitButton {
+        width: 245px;
+        max-width: 100%;
+    }
+    .custom-form .fsRow.fsFieldRow.fsLastRow {
+        margin-bottom: 0px !important;
+    }
+    .custom-form .fsFieldFocused:not(.fsValidationError).fsSpan100 {
+        width: calc(100% + 10px);
+        padding-right: 0px !important;
+    }
+}

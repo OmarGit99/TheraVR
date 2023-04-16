@@ -1,0 +1,133 @@
+.elementor-kit-5 {
+    --e-global-color-primary: #4EB2E4;
+    --e-global-color-secondary: #EFEFF0;
+    --e-global-color-text: #000000;
+    --e-global-color-accent: #A8E2D3;
+    --e-global-color-98ea529: #231F20;
+    --e-global-color-d3536bf: #2339B7;
+    --e-global-color-369dfa5: #AADAF2;
+    --e-global-color-ed56b67: #CDE9F7;
+    --e-global-color-632fb17: #E5DEF6;
+    --e-global-color-a18b285: #A388DD;
+    --e-global-color-940d70a: #A8E2D3;
+    --e-global-color-e2ddc9a: #E7F7F3;
+    --e-global-typography-primary-font-family: "Gellix";
+    --e-global-typography-primary-font-weight: normal;
+    --e-global-typography-secondary-font-family: "Gellix";
+    --e-global-typography-secondary-font-weight: normal;
+    --e-global-typography-text-font-family: "Gellix";
+    --e-global-typography-text-font-size: 16px;
+    --e-global-typography-text-font-weight: normal;
+    --e-global-typography-accent-font-family: "Gellix";
+    --e-global-typography-accent-font-weight: 500;
+}
+
+.elementor-kit-5 a {
+    color: #2339B7;
+}
+
+.elementor-kit-5 a:hover {
+    color: #162A9B;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1200px;
+}
+
+.e-container {
+    --container-max-width: 1200px;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.elementor-element {
+    --widgets-spacing: 20px;
+}
+
+{}
+
+h1.entry-title {
+    display: var(--page-title-display);
+}
+
+.elementor-kit-5 e-page-transition {
+    background-color: #FFBC7D;
+}
+
+@media(max-width:1024px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1024px;
+    }
+    .e-container {
+        --container-max-width: 1024px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 767px;
+    }
+    .e-container {
+        --container-max-width: 767px;
+    }
+}
+
+/* Start Custom Fonts CSS */
+
+@font-face {
+    font-family: 'Gellix';
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+    src: url('/wp-content/uploads/2021/02/Gellix-Regular.eot');
+    src: url('/wp-content/uploads/2021/02/Gellix-Regular.eot?#iefix') format('embedded-opentype'), url('/wp-content/uploads/2021/02/Gellix-Regular.woff2') format('woff2'), url('/wp-content/uploads/2021/02/Gellix-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gellix';
+    font-style: italic;
+    font-weight: normal;
+    font-display: auto;
+    src: url('/wp-content/uploads/2021/02/Gellix-RegularItalic.eot');
+    src: url('/wp-content/uploads/2021/02/Gellix-RegularItalic.eot?#iefix') format('embedded-opentype'), url('/wp-content/uploads/2021/02/Gellix-RegularItalic.woff2') format('woff2'), url('/wp-content/uploads/2021/02/Gellix-RegularItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gellix';
+    font-style: normal;
+    font-weight: 600;
+    font-display: auto;
+    src: url('/wp-content/uploads/2021/02/Gellix-SemiBold.eot');
+    src: url('/wp-content/uploads/2021/02/Gellix-SemiBold.eot?#iefix') format('embedded-opentype'), url('/wp-content/uploads/2021/02/Gellix-SemiBold.woff2') format('woff2'), url('/wp-content/uploads/2021/02/Gellix-SemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gellix';
+    font-style: italic;
+    font-weight: 600;
+    font-display: auto;
+    src: url('/wp-content/uploads/2021/02/Gellix-SemiBoldItalic.eot');
+    src: url('/wp-content/uploads/2021/02/Gellix-SemiBoldItalic.eot?#iefix') format('embedded-opentype'), url('/wp-content/uploads/2021/02/Gellix-SemiBoldItalic.woff2') format('woff2'), url('/wp-content/uploads/2021/02/Gellix-SemiBoldItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gellix';
+    font-style: normal;
+    font-weight: 100;
+    font-display: auto;
+    src: url('/wp-content/uploads/2021/02/Gellix-Thin.eot');
+    src: url('/wp-content/uploads/2021/02/Gellix-Thin.eot?#iefix') format('embedded-opentype'), url('/wp-content/uploads/2021/02/Gellix-Thin.woff2') format('woff2'), url('/wp-content/uploads/2021/02/Gellix-Thin.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gellix';
+    font-style: italic;
+    font-weight: 100;
+    font-display: auto;
+    src: url('/wp-content/uploads/2021/02/Gellix-ThinItalic.eot');
+    src: url('/wp-content/uploads/2021/02/Gellix-ThinItalic.eot?#iefix') format('embedded-opentype'), url('/wp-content/uploads/2021/02/Gellix-ThinItalic.woff2') format('woff2'), url('/wp-content/uploads/2021/02/Gellix-ThinItalic.woff') format('woff');
+}
+
+/* End Custom Fonts CSS */

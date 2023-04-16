@@ -1,0 +1,131 @@
+.elementor-48354 .elementor-element.elementor-element-4d98f50,
+.elementor-48354 .elementor-element.elementor-element-4d98f50>.elementor-background-overlay {
+    border-radius: 5px 5px 5px 5px;
+}
+
+.elementor-48354 .elementor-element.elementor-element-e1c01df {
+    font-family: "Gellix", Sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.elementor-48354 .elementor-element.elementor-element-41e54a2.elementor-column>.elementor-column-wrap>.elementor-widget-wrap {
+    justify-content: flex-end;
+}
+
+.elementor-48354 .elementor-element.elementor-element-83bfd5c .elementor-button {
+    font-family: "Gellix", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: var( --e-global-color-d3536bf);
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var( --e-global-color-d3536bf);
+    border-radius: 50px 50px 50px 50px;
+    padding: 10px 20px 10px 20px;
+}
+
+.elementor-48354 .elementor-element.elementor-element-83bfd5c .elementor-button:hover,
+.elementor-48354 .elementor-element.elementor-element-83bfd5c .elementor-button:focus {
+    color: #FFFFFF;
+    background-color: #231F20;
+    border-color: #231F20;
+}
+
+.elementor-48354 .elementor-element.elementor-element-83bfd5c .elementor-button:hover svg,
+.elementor-48354 .elementor-element.elementor-element-83bfd5c .elementor-button:focus svg {
+    fill: #FFFFFF;
+}
+
+.elementor-48354 .elementor-element.elementor-element-83bfd5c {
+    width: auto;
+    max-width: auto;
+}
+
+.elementor-48354 .elementor-element.elementor-element-3168f21.elementor-column>.elementor-column-wrap>.elementor-widget-wrap {
+    justify-content: flex-start;
+}
+
+.elementor-48354 .elementor-element.elementor-element-b9b2103 .elementor-button {
+    font-family: "Gellix", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    fill: #000000;
+    color: #000000;
+    background-color: var( --e-global-color-primary);
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var( --e-global-color-primary);
+    border-radius: 50px 50px 50px 50px;
+    padding: 10px 20px 10px 20px;
+}
+
+.elementor-48354 .elementor-element.elementor-element-b9b2103 .elementor-button:hover,
+.elementor-48354 .elementor-element.elementor-element-b9b2103 .elementor-button:focus {
+    color: #FFFFFF;
+    background-color: #231F20;
+    border-color: #231F20;
+}
+
+.elementor-48354 .elementor-element.elementor-element-b9b2103 .elementor-button:hover svg,
+.elementor-48354 .elementor-element.elementor-element-b9b2103 .elementor-button:focus svg {
+    fill: #FFFFFF;
+}
+
+.elementor-48354 .elementor-element.elementor-element-b9b2103 {
+    width: auto;
+    max-width: auto;
+}
+
+#elementor-popup-modal-48354 .dialog-message {
+    width: 1000px;
+    height: auto;
+}
+
+#elementor-popup-modal-48354 {
+    justify-content: center;
+    align-items: center;
+    pointer-events: all;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+#elementor-popup-modal-48354 .dialog-close-button {
+    display: flex;
+}
+
+#elementor-popup-modal-48354 .dialog-widget-content {
+    animation-duration: 0.5s;
+    box-shadow: 2px 8px 23px 3px rgba(0, 0, 0, 0.2);
+}
+
+@media(max-width:1024px) and (min-width:768px) {
+    .elementor-48354 .elementor-element.elementor-element-f29975b {
+        width: 100%;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-48354 .elementor-element.elementor-element-4d98f50 {
+        padding: 0px 2px 0px 0px;
+    }
+    .elementor-48354 .elementor-element.elementor-element-e1c01df {
+        font-size: 16px;
+    }
+    .elementor-48354 .elementor-element.elementor-element-e1c01df>.elementor-widget-container {
+        padding: 0px 20px 0px 0px;
+    }
+    .elementor-48354 .elementor-element.elementor-element-41e54a2.elementor-column>.elementor-column-wrap>.elementor-widget-wrap {
+        justify-content: center;
+    }
+    .elementor-48354 .elementor-element.elementor-element-83bfd5c .elementor-button {
+        font-size: 17px;
+    }
+    .elementor-48354 .elementor-element.elementor-element-3168f21.elementor-column>.elementor-column-wrap>.elementor-widget-wrap {
+        justify-content: center;
+    }
+    .elementor-48354 .elementor-element.elementor-element-b9b2103 .elementor-button {
+        font-size: 17px;
+    }
+}
