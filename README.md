@@ -1,4 +1,4 @@
-# GFG_Hackathon
+# GFG_Hackathon - TheraVR
 Project Objective:
 The objective of this project was to develop an anxiety therapy VR environment, the Zen Garden, that could provide accessible and affordable therapy to individuals suffering from anxiety disorders in India. The project aimed to address the critical issue of mental health in areas where access to therapy is limited.
 
