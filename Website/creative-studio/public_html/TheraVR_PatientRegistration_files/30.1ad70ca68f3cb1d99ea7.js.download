@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[30],{"2YEQ":function(n,e,r){"use strict";r.r(e),r.d(e,"QuizModule",(function(){return i}));var t=r("Yrj5"),o=r("gerp"),u=r("G6s7"),s=r("fXoL");let i=(()=>{class n{}return n.\u0275mod=s.Kb({type:n}),n.\u0275inj=s.Jb({factory:function(e){return new(e||n)},imports:[[o.a,u.TreatmentsModule,t.a]]}),n})()}}]);
